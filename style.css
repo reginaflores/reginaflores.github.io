@@ -5,8 +5,8 @@
   --wrapper-height: 87vh;
   --image-max-width: 300px;
   --image-margin: 3rem;
-  --font-family: "HK Grotesk";
-  --font-family-header: "HK Grotesk";
+  --font-family: "Lato";
+  --font-family-header: "Lato";
 }
 
 /* Basic page style resets */
@@ -18,8 +18,12 @@
 }
 
 /* Import fonts */
-
-@font-face {
+font-face {
+  font-family: Lato;
+  src: url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap")
+    format("opentype");
+}
+/*@font-face {
   font-family: Open-Dyslexic-Bold;
   src: url("https://cdn.glitch.global/df93a140-5a49-4828-bbb2-731ee29b5e22/OpenDyslexic-Bold.otf")
     format("opentype");
@@ -28,7 +32,7 @@
   font-family: Open-Dyslexic-Regular;
   src: url("https://cdn.glitch.global/df93a140-5a49-4828-bbb2-731ee29b5e22/OpenDyslexic-Regular.otf")
     format("opentype");
-}
+}*/
 
 /* Add typeface options */
 /* Add colour contrast check; colour combinations; colour contrast guide; naming convention*/
