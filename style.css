@@ -53,7 +53,7 @@ body {
 }
 
 a {
-  color: darkorange;
+  color: black;
 }
 
 a:hover{
@@ -62,7 +62,7 @@ a:hover{
 
 header a, header a:hover {
   text-decoration: none;
-  color: darkorange;
+  color: black;
 }
 
 nav {
@@ -118,7 +118,7 @@ nav a {
 #headerimage {
   max-width: 80%;
   padding: 3%;
-  background-image: url("Visual_Twitter.png");
+  background-image: url("Visual_Twitter.pnga");
   background-color: black;
   height: 500px;
   display: flex;
